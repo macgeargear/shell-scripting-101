@@ -1,7 +1,7 @@
 #!/bin/sh
 while read input_text
 do
-	case $input_text
+	case $input_text in
 		hello) echo English;;
 		howdy) echo American;;
 		gday) echo Australian;;
